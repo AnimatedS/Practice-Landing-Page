@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(1, 1, 26);
+    color: antiquewhite;
+}
+
+div {
+    display: flex;
+}
+
+.logo {
+    color: rgb(167, 153, 136);
+}
+
+.header-section {
+    background-color: rgb(2, 2, 39);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.hero-section {
+    justify-content: space-between;
+}
+
+.hero-text-content {
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.hero-text-para {
+    color: rgb(187, 176, 161);
+    font-style: oblique;
+}
+
+.hero-text-button {
+    background-color: rgb(26, 46, 100);
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(37, 43, 134);
+    border-radius: 5px;
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.hero-image {
+    width: 300px;
+    margin: 3px;
+}
