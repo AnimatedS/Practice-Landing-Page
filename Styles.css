@@ -57,3 +57,60 @@ h1 {
     width: 300px;
     margin: 3px;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.info-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    background-color: rgb(2, 16, 59);
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.info-image {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(32, 20, 75);
+}
+
+.card-image {
+    height: auto;
+    width: 200px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3,h4 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    opacity: 0.6;
+}
+
+h4 {
+    font-size: 15px;
+    opacity: 0.4;
+}
